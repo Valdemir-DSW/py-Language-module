@@ -71,7 +71,23 @@ class idmManager:
             except (FileNotFoundError, json.JSONDecodeError, OSError) as e:
                 print(f"Erro ao carregar o idioma salvo: {e}")
         return random.choice(list(self.data.keys()))
-
+    def get_available_languages(self):
+        """Retorna uma lista de todos os idiomas disponíveis no arquivo de idiomas."""
+        return list(self.data.keys())
+    def get_ids_by_language(self, language):
+        """
+        Retorna uma lista de todos os IDs disponíveis para um idioma específico.
+    
+        Args:
+            language (str): O idioma para o qual os IDs serão retornados.
+    
+        Returns:
+            list: Uma lista de strings contendo os IDs disponíveis para o idioma.
+        """
+        if language in self.data:
+            return list(self.data[language].keys())
+        else:
+            raise ValueError(f"O idioma '{language}' não está disponível.")    
     def _save_last_language(self):
         """Salva o idioma atual no arquivo de dados do aplicativo."""
         if self.app_data_path:
