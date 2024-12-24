@@ -30,3 +30,4 @@ Pois é, eu falei que você poderia utilizar em qualquer linguagem de programaç
 ```
 EX1 e EX2 são exemplos de idiomas que eu mesmo coloquei, mas, obviamente, você poderá colocar o nome que você quiser para o idioma. INSG é um ID que eu coloquei disponível lá nos dois idiomas. Claro que um idioma pode ter mais IDs que o outro, mas isso não importa. Mas, você pode colocar o que você quiser.
 
+O aplicativo falado é esse que está disponível aqui > https://github.com/Valdemir-DSW/py-Language-module/raw/refs/heads/main/idm%20editor%20setup.zip que também tem um tradutor automático dele o que você pode usar mas confira a tradução se está correta sempre !
