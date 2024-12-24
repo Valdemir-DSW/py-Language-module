@@ -28,3 +28,5 @@ Pois é, eu falei que você poderia utilizar em qualquer linguagem de programaç
 }
 
 ```
+EX1 e EX2 são exemplos de idiomas que eu mesmo coloquei, mas, obviamente, você poderá colocar o nome que você quiser para o idioma. INSG é um ID que eu coloquei disponível lá nos dois idiomas. Claro que um idioma pode ter mais IDs que o outro, mas isso não importa. Mas, você pode colocar o que você quiser.
+
